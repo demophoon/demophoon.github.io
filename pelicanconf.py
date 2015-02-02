@@ -13,10 +13,10 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Article URLs
-ARTICLE_URL = 'posts/{category}/{slug}/'
-ARTICLE_URL_AS = 'posts/{category}/{slug}/index.html'
-PAGE_URL = 'pages/{category}/{slug}/'
-PAGE_URL_AS = 'pages/{category}/{slug}/index.html'
+#ARTICLE_URL = 'posts/{category}/{slug}/'
+#ARTICLE_URL_AS = 'posts/{category}/{slug}/index.html'
+#PAGE_URL = 'pages/{category}/{slug}/'
+#PAGE_URL_AS = 'pages/{category}/{slug}/index.html'
 
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = None
