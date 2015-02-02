@@ -3,7 +3,8 @@
 <head>
         <meta charset="utf-8" />
         <title>Fro Maintenance - Webvim</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link rel="stylesheet" href="http://demophoon.github.io/theme/css/main.css" />
+        <link href="https://demophoon.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Fro Maintenance Atom Feed" />
 
         <!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,15 +13,70 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">Fro Maintenance </a></h1>
+                <h1><a href="http://demophoon.github.io/">Fro Maintenance </a></h1>
                 <nav><ul>
-                    <li><a href="/category/blog.html">Blog</a></li>
+                    <li><a href="http://demophoon.github.io/category/blog.html">Blog</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/webvim.html">Bringing a Disposable Terminal to the Browser</a></h1>
+                    <h1 class="entry-title"><a href="http://demophoon.github.io/webvim-tornado.html">Tornado over Pyramid for Webvim</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2015-02-01T18:52:00-08:00">
+                Published: Sun 01 February 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://demophoon.github.io/author/britt-gresham.html">Britt Gresham</a>
+        </address>
+<p>In <a href="http://demophoon.github.io/category/blog.html">Blog</a>. </p>
+<p>tags: <a href="http://demophoon.github.io/tag/technology.html">Technology</a> <a href="http://demophoon.github.io/tag/webvim.html">Webvim</a> <a href="http://demophoon.github.io/tag/vim.html">Vim</a> <a href="http://demophoon.github.io/tag/terminal.html">Terminal</a> <a href="http://demophoon.github.io/tag/pyramid.html">Pyramid</a> <a href="http://demophoon.github.io/tag/tornado.html">Tornado</a> </p>
+</footer><!-- /.post-info --><p>So I've done a lot of work getting Webvim to the state that it currently is at
+right now. Along the way I ran into some very interesting problems that needed
+to be solved in order to get the 1.0 release out.</p>
+<h2>Refactor</h2>
+<p>This started off with a complete refactor of the back end technology to stop
+using Pyramid and switch over to a lighter weight server called Tornado. I
+realized that I was using Pyramid in the complete wrong way, mainly for serving
+up static content with most of the functionality being taken care of in the
+<code>termio</code> and <code>terminal</code> python modules as well as the front end logic being
+handled by the javascript that I wrote. Pyramid was essentially a glorified
+cookie/session manager that just happened to have websocket capabilities.</p>
+<h2>In comes Tornado's IOLoop Reactor</h2>
+<p>When I was digging into <a href="https://github.com/liftoff/GateOne">GateOne's</a> codebase
+in my attempt to not have to write my own terminal emulator and multiplexor I
+noticed that there was a callback mechanism that was built in to both
+components. Being very familiar with callbacks knowing javascript this was
+something that intrigued me and would have come in very nicely so that I don't
+have to guess when the terminal was updated by the program. The only caveat was
+that you needed to be using the libraries with Tornado and at the time I was
+lazy and wanted to stick to something I knew, which was Pyramid.</p>
+<p>After considering moving over to something lighter weight I installed Tornado
+and began refactoring. Before what I had done to get the terminal working in a
+close to realtime fashion was to have a while true loop running constantly
+checking for updated to the terminal every tenth of a second. Seeing that my
+reactor was very <em>homegrown</em> and slow when I moved to Tornado I saw massive
+improvements in speed and performance since the absolute best latency you could
+get was 100ms between pushing the key and getting a response from the server.</p>
+<p>With Tornado being lighter weight the startup time was significantly reduced. I
+also could focus less on the framework aspect of Pyramid and focus on more of
+the code itself that was driving webvim. Also with way fewer dependencies,
+installation takes no time. All of these wins, big and small, made me very happy
+with the result.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://demophoon.github.io/webvim.html" rel="bookmark"
+                           title="Permalink to Bringing a Disposable Terminal to the Browser">Bringing a Disposable Terminal to the Browser</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2014-05-27T22:27:00-06:00">
                 Published: Tue 27 May 2014
@@ -31,67 +87,22 @@
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/britt-gresham.html">Britt Gresham</a>
+                By                         <a class="url fn" href="http://demophoon.github.io/author/britt-gresham.html">Britt Gresham</a>
         </address>
-<p>In <a href="/category/blog.html">Blog</a>. </p>
-<p>tags: <a href="/tag/technology.html">Technology</a> <a href="/tag/webvim.html">Webvim</a> <a href="/tag/vim.html">Vim</a> <a href="/tag/terminal.html">Terminal</a> <a href="/tag/websockets.html">Websockets</a> <a href="/tag/html-5.html">Html 5</a> </p>
-</footer><!-- /.post-info --><p>A few weeks ago I was playing around with some new technology in the web
+<p>In <a href="http://demophoon.github.io/category/blog.html">Blog</a>. </p>
+<p>tags: <a href="http://demophoon.github.io/tag/technology.html">Technology</a> <a href="http://demophoon.github.io/tag/webvim.html">Webvim</a> <a href="http://demophoon.github.io/tag/vim.html">Vim</a> <a href="http://demophoon.github.io/tag/terminal.html">Terminal</a> <a href="http://demophoon.github.io/tag/websockets.html">Websockets</a> <a href="http://demophoon.github.io/tag/html-5.html">Html 5</a> </p>
+</footer><!-- /.post-info -->                <p>A few weeks ago I was playing around with some new technology in the web
 browser. I had always wanted to show off my vim configurations in some sort of
 fashion and I had written a lot of really sweet web applications so I figured
-why not show off my vim config in the browser.</p>
-<p>The problem that I was faced with was how to get a good user experience in the
-web browser without rewriting vim in in javascript, since many have tried and
-have not quite gotten it right. I moved to my next solution, bring vim to the
-browser by streaming a terminal to it! This task was far more interesting to me
-because it went past just streaming vim, but all terminal applications to the
-web browser! So I did exactly that!</p>
-<h3>Removed for now... Awaiting Webvim Version 1.0...</h3>
-<p>What you see above is a real, live terminal. Running a real instance of vim.
-Everything works as it is suppose to work just like you were sitting in front
-of a terminal. I am using a few libraries that <a
-href="https://github.com/liftoff/GateOne">GateOne</a> utilize in their
-application and adapting it to spin up docker containers. I then monitor the
-output of the container and send any changes to the web browser in near
-real-time using websockets. Each container is set to run for 30 minutes before
-terminating itself, I've also disabled networking in the containers so that my
-server is not used in some botnet. So what about security? Cannot people just
-escape out of vim using ":!bash"? Well yes, but I'm not too worried about it
-and i'll tell you why.</p>
-<p>Docker allows me to have very lightweight linux containers that boot in a
-second or two. In fact, if you are visiting the website for the first time the
-container that you are currently connected to was spun as you loaded the page.
-These containers are sandboxed off from each other and the host system. Only I
-can specify the type of interactivity each container can have with the each
-other or the host system. I'm using a program called timelimit to automatically
-kill vim after 30 minutes as well so that the servers resources do not get
-eaten up by your session. This keeps thing moving along quite nicely. Sure
-people can go ahead and escape out of vim with ^z or :!bash but since its
-sandboxed off and networking is disabled there is very little that you could do
-to harm the actual host machine (which is an amazon box dedicated to this demo
-and <a href="http://www.brittg.sexy/">http://www.brittg.sexy/</a>). Also when
-you connect to a webvim session you get a unique identifier that connects you
-to your docker container. You can share the link that the website redirects you
-to with your friends and all share the same docker container or have them get
-their own containers by giving them the base url (<a
-href="http://www.brittg.sexy/">http://www.brittg.sexy/</a>).</p>
-<p>I also found a really neat terminal emulator for the web browser, also used by
-gateone, called <a href="https://github.com/chjj/term.js/">term.js</a>. I
-discovered that I could send raw terminal data to it and it would be rendered
-properly. This made the browser part super easy. All I needed to do is write in
-screen resizing and an auto disconnect after 10 minutes of inactivity and I was
-done with the front end.</p>
-<p>If you would like to see this project in its final state check it out at <a
-href="http://www.brittg.sexy/">http://www.brittg.sexy/</a>. The code for the
-project is out on github at <a
-href="https://github.com/demophoon/webvim">https://github.com/demophoon/webvim</a>.
-Feel free to pull it down and make it your own! I've got my own personal webvim
-server stood up that lets me share bash prompts with others so that I can show
-off the rest of my configurations while everyone is on their own personal
-devices.</p>                </article>
+why not show off my ...</p>
+                <a class="readmore" href="http://demophoon.github.io/webvim.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
 <p class="paginator">
     Page 1 / 1
 </p>
-            </aside><!-- /#featured -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
@@ -103,6 +114,7 @@ devices.</p>                </article>
                 <div class="social">
                         <h2>social</h2>
                         <ul>
+                            <li><a href="https://demophoon.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
                             <li><a href="https://github.com/demophoon">Github</a></li>
                             <li><a href="https://twitter.com/demophoon">Twitter</a></li>
@@ -120,5 +132,15 @@ devices.</p>                </article>
                 <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
 
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34543516-4']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
 </body>
 </html>
