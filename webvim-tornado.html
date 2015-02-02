@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Who are You People?</title>
+        <title>Tornado over Pyramid for Webvim</title>
         <link rel="stylesheet" href="http://demophoon.github.io/theme/css/main.css" />
         <link href="https://demophoon.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Fro Maintenance Atom Feed" />
 
@@ -22,49 +22,54 @@
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="http://demophoon.github.io/who-are-you-people.html" rel="bookmark"
-           title="Permalink to Who are You People?">Who are You People?</a></h1>
+        <a href="http://demophoon.github.io/webvim-tornado.html" rel="bookmark"
+           title="Permalink to Tornado over Pyramid for Webvim">Tornado over Pyramid for Webvim</a></h1>
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="demophoon">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
     </header>
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2012-12-16T23:32:00-06:00">
-                Published: Sun 16 December 2012
+        <abbr class="published" title="2015-02-01T18:52:00-08:00">
+                Published: Sun 01 February 2015
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="http://demophoon.github.io/author/britt-gresham.html">Britt Gresham</a>
         </address>
 <p>In <a href="http://demophoon.github.io/category/blog.html">Blog</a>. </p>
-<p>tags: <a href="http://demophoon.github.io/tag/technology.html">Technology</a> <a href="http://demophoon.github.io/tag/analytics.html">Analytics</a> </p>
-</footer><!-- /.post-info -->      <p>Keeping track of the visitors that go to your website can be a very useful tool
-in finding out bugs in all sorts of areas in a web application. Viewing them in
-a neat and organized manner can make parsing through logs trying to figure out
-what the user did to cause the error in the first place. This is exactly what I
-have Google Analytics for, and if you do not know what Analytics is it is
-Google's solution to tracking visitors through a website. Tracking scripts and
-images can be found through out the entire internet, sometimes it is used for
-advertising and other times it is used by people like me that are just curious
-what kind of traffic my website generates on a day to day basis. Analytics has
-a great dashboard that shows you all sorts of information that can be collected
-via a small snippet of code you throw onto any page you want to track. The neat
-thing is with that small snippet of code you can use it on just about any
-domain or subdomain that you may own and it will store the information under
-the tracking id it creates for you. I have Analytic tracking scripts on just
-about everything on this website for my information only. Since Analytics has a
-very nice Visitor Flow chart I am able to tell how users got to an error page
-or a 404 page simply by following the arrows from left to right on the chart.
-It walks me through exactly what the user went through. First the index page,
-then the images page, and finally to a 404 page where then they closed the web
-page and the flow chart drops off the screen. Also with my tracking id I can
-plug it into my apps on the Google Chrome web store and view keywords that
-people searched to get to my applications. It even allows me to see if people
-are staying to download the application or if they leave right then and there.
-Knowing this information can be very valuable by helping you understand what a
-typical flow is for any group of users. If you have not looked into Analytics I
-strongly recommend looking into it or some other form of visitor tracking. You
-may be surprised with what you may find.</p>
+<p>tags: <a href="http://demophoon.github.io/tag/technology.html">Technology</a> <a href="http://demophoon.github.io/tag/webvim.html">Webvim</a> <a href="http://demophoon.github.io/tag/vim.html">Vim</a> <a href="http://demophoon.github.io/tag/terminal.html">Terminal</a> <a href="http://demophoon.github.io/tag/pyramid.html">Pyramid</a> <a href="http://demophoon.github.io/tag/tornado.html">Tornado</a> </p>
+</footer><!-- /.post-info -->      <p>So I've done a lot of work getting Webvim to the state that it currently is at
+right now. Along the way I ran into some very interesting problems that needed
+to be solved in order to get the 1.0 release out.</p>
+<h2>Refactor</h2>
+<p>This started off with a complete refactor of the back end technology to stop
+using Pyramid and switch over to a lighter weight server called Tornado. I
+realized that I was using Pyramid in the complete wrong way, mainly for serving
+up static content with most of the functionality being taken care of in the
+<code>termio</code> and <code>terminal</code> python modules as well as the front end logic being
+handled by the javascript that I wrote. Pyramid was essentially a glorified
+cookie/session manager that just happened to have websocket capabilities.</p>
+<h2>In comes Tornado's IOLoop Reactor</h2>
+<p>When I was digging into <a href="https://github.com/liftoff/GateOne">GateOne's</a> codebase
+in my attempt to not have to write my own terminal emulator and multiplexor I
+noticed that there was a callback mechanism that was built in to both
+components. Being very familiar with callbacks knowing javascript this was
+something that intrigued me and would have come in very nicely so that I don't
+have to guess when the terminal was updated by the program. The only caveat was
+that you needed to be using the libraries with Tornado and at the time I was
+lazy and wanted to stick to something I knew, which was Pyramid.</p>
+<p>After considering moving over to something lighter weight I installed Tornado
+and began refactoring. Before what I had done to get the terminal working in a
+close to realtime fashion was to have a while true loop running constantly
+checking for updated to the terminal every tenth of a second. Seeing that my
+reactor was very <em>homegrown</em> and slow when I moved to Tornado I saw massive
+improvements in speed and performance since the absolute best latency you could
+get was 100ms between pushing the key and getting a response from the server.</p>
+<p>With Tornado being lighter weight the startup time was significantly reduced. I
+also could focus less on the framework aspect of Pyramid and focus on more of
+the code itself that was driving webvim. Also with way fewer dependencies,
+installation takes no time. All of these wins, big and small, made me very happy
+with the result.</p>
     </div><!-- /.entry-content -->
 
   </article>
