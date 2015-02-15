@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Fro Maintenance</title><link href="http://demophoon.github.io/" rel="alternate"></link><link href="https://demophoon.github.io/feeds/all.atom.xml" rel="self"></link><id>http://demophoon.github.io/</id><updated>2015-02-01T18:52:00-08:00</updated><entry><title>Tornado over Pyramid for Webvim</title><link href="http://demophoon.github.io/webvim-tornado.html" rel="alternate"></link><updated>2015-02-01T18:52:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-01:webvim-tornado.html</id><summary type="html">&lt;p&gt;So I've done a lot of work getting Webvim to the state that it currently is at
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Fro Maintenance</title><link href="https://demophoon.github.io/" rel="alternate"></link><link href="https://demophoon.github.io/feeds/all.atom.xml" rel="self"></link><id>https://demophoon.github.io/</id><updated>2015-02-01T18:52:00-08:00</updated><entry><title>Tornado over Pyramid for Webvim</title><link href="https://demophoon.github.io/webvim-tornado.html" rel="alternate"></link><updated>2015-02-01T18:52:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-01:webvim-tornado.html</id><summary type="html">&lt;p&gt;So I've done a lot of work getting Webvim to the state that it currently is at
 right now. Along the way I ran into some very interesting problems that needed
 to be solved in order to get the 1.0 release out.&lt;/p&gt;
 &lt;h2&gt;Refactor&lt;/h2&gt;
@@ -30,7 +30,7 @@ get was 100ms between pushing the key and getting a response from the server.&lt
 also could focus less on the framework aspect of Pyramid and focus on more of
 the code itself that was driving webvim. Also with way fewer dependencies,
 installation takes no time. All of these wins, big and small, made me very happy
-with the result.&lt;/p&gt;</summary><category term="Technology"></category><category term="Webvim"></category><category term="Vim"></category><category term="Terminal"></category><category term="Pyramid"></category><category term="Tornado"></category></entry><entry><title>Alternate View on Pair Programming</title><link href="http://demophoon.github.io/pair-programming.html" rel="alternate"></link><updated>2014-09-12T00:04:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2014-09-12:pair-programming.html</id><summary type="html">&lt;p&gt;For some time now I had thought of pair programming as being counterintuitive.
+with the result.&lt;/p&gt;</summary><category term="Technology"></category><category term="Webvim"></category><category term="Vim"></category><category term="Terminal"></category><category term="Pyramid"></category><category term="Tornado"></category></entry><entry><title>Alternate View on Pair Programming</title><link href="https://demophoon.github.io/pair-programming.html" rel="alternate"></link><updated>2014-09-12T00:04:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2014-09-12:pair-programming.html</id><summary type="html">&lt;p&gt;For some time now I had thought of pair programming as being counterintuitive.
 I'm sure others out there have had the same thought process as me. For
 instance, i'd have thoughts like "Wait, you're saying that TWO programmers are
 going to try and share ONE computer?!? Wouldn't that just slow the process of
@@ -62,7 +62,7 @@ brain while you are at it so that next time you will be prepared for that
 problem when you see it again. Or even better, next time you encounter a more
 difficult problem you can take the knowledge that you acquired in the pairing
 session and help show someone else the ropes as you tackle the problem
-together.&lt;/p&gt;</summary><category term="Technology"></category><category term="Pair Programming"></category><category term="Self Help"></category></entry><entry><title>Bringing a Disposable Terminal to the Browser</title><link href="http://demophoon.github.io/webvim.html" rel="alternate"></link><updated>2015-01-29T22:27:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2014-05-27:webvim.html</id><summary type="html">&lt;p&gt;A few weeks ago I was playing around with some new technology in the web
+together.&lt;/p&gt;</summary><category term="Technology"></category><category term="Pair Programming"></category><category term="Self Help"></category></entry><entry><title>Bringing a Disposable Terminal to the Browser</title><link href="https://demophoon.github.io/webvim.html" rel="alternate"></link><updated>2015-01-29T22:27:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2014-05-27:webvim.html</id><summary type="html">&lt;p&gt;A few weeks ago I was playing around with some new technology in the web
 browser. I had always wanted to show off my vim configurations in some sort of
 fashion and I had written a lot of really sweet web applications so I figured
 why not show off my vim config in the browser.&lt;/p&gt;
@@ -114,7 +114,7 @@ href="https://github.com/demophoon/webvim"&gt;https://github.com/demophoon/webvi
 Feel free to pull it down and make it your own! I've got my own personal webvim
 server stood up that lets me share bash prompts with others so that I can show
 off the rest of my configurations while everyone is on their own personal
-devices.&lt;/p&gt;</summary><category term="Technology"></category><category term="Webvim"></category><category term="Vim"></category><category term="Terminal"></category><category term="Websockets"></category><category term="Html 5"></category></entry><entry><title>Building My Own Google Music With Hookers And Blow</title><link href="http://demophoon.github.io/google-music-party-mode.html" rel="alternate"></link><updated>2013-12-29T22:54:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-12-29:google-music-party-mode.html</id><summary type="html">&lt;p&gt;When things do not work the way I want them to work I tend to build my own
+devices.&lt;/p&gt;</summary><category term="Technology"></category><category term="Webvim"></category><category term="Vim"></category><category term="Terminal"></category><category term="Websockets"></category><category term="Html 5"></category></entry><entry><title>Building My Own Google Music With Hookers And Blow</title><link href="https://demophoon.github.io/google-music-party-mode.html" rel="alternate"></link><updated>2013-12-29T22:54:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-12-29:google-music-party-mode.html</id><summary type="html">&lt;p&gt;When things do not work the way I want them to work I tend to build my own
 version of whatever it is that wasn't working for me. In this case, it is
 Google Music. Now Google Music is a fantastic service, and i'm not moving away
 from it any time soon. It's just missing some features that other services do
@@ -222,7 +222,7 @@ so far checkout the project at &lt;a
 href="https://github.com/demophoon/Google-Music-Party-Mode"&gt;https://github.com/demophoon/Google-Music-Party-Mode&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;There is still a lot of things that I need to add to get it to where I want it
 to be like mobile so that anyone can vote on a song. Anyways, i'm going to call
-it a night.&lt;/p&gt;</summary><category term="Technology"></category><category term="Google Music"></category><category term="Knockout"></category><category term="Javascript"></category><category term="Pyramid"></category><category term="Python"></category></entry><entry><title>Coding on the Go</title><link href="http://demophoon.github.io/coding-on-the-go.html" rel="alternate"></link><updated>2013-10-11T23:25:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-10-11:coding-on-the-go.html</id><summary type="html">&lt;p&gt;This last week I spent a little bit of time looking into my options for coding
+it a night.&lt;/p&gt;</summary><category term="Technology"></category><category term="Google Music"></category><category term="Knockout"></category><category term="Javascript"></category><category term="Pyramid"></category><category term="Python"></category></entry><entry><title>Coding on the Go</title><link href="https://demophoon.github.io/coding-on-the-go.html" rel="alternate"></link><updated>2013-10-11T23:25:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-10-11:coding-on-the-go.html</id><summary type="html">&lt;p&gt;This last week I spent a little bit of time looking into my options for coding
 on a mobile device, like a phone or a tablet, and I found some really promising
 results. Now I had tried this venture before on my Nexus 7 and a cheap
 bluetooth keyboard from micro center. An app that I am sure most people have
@@ -245,7 +245,7 @@ locks my phone unless for some reason escape really does map to the sleep/wake
 button on Android, in which case i'd have to get used to it.) Anyways, those
 are just my findings, it will definitely give me something to do on long trips
 in the car or give me a chance to do some work while I am waiting at the
-laundromat.&lt;/p&gt;</summary><category term="Technology"></category><category term="Terminals"></category><category term="SSH"></category></entry><entry><title>IvanK Lib and Enhancing Canvas Elements With WebGl</title><link href="http://demophoon.github.io/ivank.html" rel="alternate"></link><updated>2013-06-02T21:28:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-06-02:ivank.html</id><summary type="html">&lt;p&gt;Now a while back I was introduced to &lt;a href="http://www.opusthegame.com"
+laundromat.&lt;/p&gt;</summary><category term="Technology"></category><category term="Terminals"></category><category term="SSH"></category></entry><entry><title>IvanK Lib and Enhancing Canvas Elements With WebGl</title><link href="https://demophoon.github.io/ivank.html" rel="alternate"></link><updated>2013-06-02T21:28:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-06-02:ivank.html</id><summary type="html">&lt;p&gt;Now a while back I was introduced to &lt;a href="http://www.opusthegame.com"
 target="_blank"&gt;Opus the Game&lt;/a&gt; and it really sparked my interest just as
 music related games do for me. The concept was something that I had seen before
 in many games prior but nothing I had seen before was built to be played in the
@@ -276,7 +276,7 @@ would like to see what I have done with recreating Opus the Game in Html5 visit
 test out the demo (Latest version of Chrome only as the Web Audio Api is only
 supported in Chrome). There are still a few screens missing but it gets the
 concepts down to how extensible and applicable the library is to someone who
-has very minimal experience in Actionscript.&lt;/p&gt;</summary><category term="Technology"></category><category term="Javascript"></category><category term="Html 5"></category><category term="WebGL"></category><category term="Canvas"></category><category term="IvanK"></category></entry><entry><title>Staying Motivated!</title><link href="http://demophoon.github.io/staying-motivated.html" rel="alternate"></link><updated>2013-05-05T23:31:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-05-05:staying-motivated.html</id><summary type="html">&lt;p&gt;And thats how far I've gotten this week.&lt;/p&gt;
+has very minimal experience in Actionscript.&lt;/p&gt;</summary><category term="Technology"></category><category term="Javascript"></category><category term="Html 5"></category><category term="WebGL"></category><category term="Canvas"></category><category term="IvanK"></category></entry><entry><title>Staying Motivated!</title><link href="https://demophoon.github.io/staying-motivated.html" rel="alternate"></link><updated>2013-05-05T23:31:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-05-05:staying-motivated.html</id><summary type="html">&lt;p&gt;And thats how far I've gotten this week.&lt;/p&gt;
 &lt;p&gt;Just joking!&lt;/p&gt;
 &lt;p&gt;I'll tell you what though, this has got to be my biggest downfall as a human,
 staying motivated and not procrastinating and giving up early, especially on
@@ -299,7 +299,7 @@ shouldn't use it but I think I just need to man up and start caring about my
 motivational and habitual progress. Starting now actually. I've just logged in
 and just as I had expected my character has died but this is not going to
 detour me this time and hopefully the next time it may happen.&lt;/p&gt;
-&lt;p&gt;+1 for weekly blog posts.&lt;/p&gt;</summary><category term="Technology"></category><category term="Self Help"></category></entry><entry><title>Startups</title><link href="http://demophoon.github.io/startups.html" rel="alternate"></link><updated>2013-03-31T22:38:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-03-31:startups.html</id><summary type="html">&lt;p&gt;This last week I was invited to a &lt;a href="http://www.reddit.com/r/KCTech"&gt;/r/KCTech&lt;/a&gt;
+&lt;p&gt;+1 for weekly blog posts.&lt;/p&gt;</summary><category term="Technology"></category><category term="Self Help"></category></entry><entry><title>Startups</title><link href="https://demophoon.github.io/startups.html" rel="alternate"></link><updated>2013-03-31T22:38:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-03-31:startups.html</id><summary type="html">&lt;p&gt;This last week I was invited to a &lt;a href="http://www.reddit.com/r/KCTech"&gt;/r/KCTech&lt;/a&gt;
 meetup and got to meet a few of the startup companies and companies that
 started in the Kansas City area. It makes me feel proud to grow up in what
 people are calling the silicon prairies now. I handed all of the business cards
@@ -310,7 +310,7 @@ here in the Kansas City area is very good and anyway I can help  us become a
 more thriving area would be my honor. I definitely plan on attending more of
 these local meetups because it really is nice to start moving away from the
 "Looks like we are not in Kansas anymore Toto", (which to be honest I never
-liked in the first place) and on to something more meaningful.&lt;/p&gt;</summary><category term="Technology"></category><category term="Kansas City"></category></entry><entry><title>The Perfect Vimrc</title><link href="http://demophoon.github.io/my-vimrc-is-actually-the-literal-best.html" rel="alternate"></link><updated>2015-01-29T20:07:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-03-10:my-vimrc-is-actually-the-literal-best.html</id><summary type="html">&lt;p&gt;I've spent this last month fine tuning my vimrc config file to the point that I
+liked in the first place) and on to something more meaningful.&lt;/p&gt;</summary><category term="Technology"></category><category term="Kansas City"></category></entry><entry><title>The Perfect Vimrc</title><link href="https://demophoon.github.io/my-vimrc-is-actually-the-literal-best.html" rel="alternate"></link><updated>2015-01-29T20:07:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-03-10:my-vimrc-is-actually-the-literal-best.html</id><summary type="html">&lt;p&gt;I've spent this last month fine tuning my vimrc config file to the point that I
 feel it is nearing completion. Now this is not to say that my configuration has
 a complete state as my tastes can change and I may stumble upon something that
 I like even better than what I have currently. After playing around with all of
@@ -412,7 +412,7 @@ vimrc. If you find something that you want to share regarding Vim leave a
 comment below. Also I have my vimrc and configuration in its full out on Github
 here: &lt;a href="https://github.com/demophoon/dotfiles"&gt;My Personal Vim Files&lt;/a&gt;. Check it
 out and steal some of my configurations if you'd like, or use the entire thing
-(I think it is brilliant).&lt;/p&gt;</summary><category term="Technology"></category><category term="Vim"></category><category term="Dotfiles"></category><category term="Editors"></category></entry><entry><title>Raspberry Pi and ddclient</title><link href="http://demophoon.github.io/rpi-ddclient.html" rel="alternate"></link><updated>2013-01-27T21:51:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-01-27:rpi-ddclient.html</id><summary type="html">&lt;p&gt;This last week my USB Wi-fi dongle came in the mail from Amazon, which I
+(I think it is brilliant).&lt;/p&gt;</summary><category term="Technology"></category><category term="Vim"></category><category term="Dotfiles"></category><category term="Editors"></category></entry><entry><title>Raspberry Pi and ddclient</title><link href="https://demophoon.github.io/rpi-ddclient.html" rel="alternate"></link><updated>2013-01-27T21:51:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-01-27:rpi-ddclient.html</id><summary type="html">&lt;p&gt;This last week my USB Wi-fi dongle came in the mail from Amazon, which I
 specifically ordered for my Raspberry Pi. This was a crucial piece of my
 Raspberry Pi puzzle because this little component would let me use the device
 with only one cord attached to it. The power cord.&lt;/p&gt;
@@ -445,7 +445,7 @@ up the book "Practical Vim", I am not but 40 pages into the book and I have
 just about doubled my knowledge on the basics that I thought I had a decent
 grasp on. To top it all of I also picked up a very nice keyboard with Cherry MX
 Blue switches and I am in love already. Hopefully I'll have this FrogPi project
-of mine hammered out over this next week! I'll keep you updated.&lt;/p&gt;</summary><category term="Technology"></category><category term="Raspberry Pi"></category><category term="DNS"></category><category term="ddclient"></category></entry><entry><title>Vim</title><link href="http://demophoon.github.io/vim-is-actually-the-literal-best.html" rel="alternate"></link><updated>2013-01-13T23:22:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-01-13:vim-is-actually-the-literal-best.html</id><summary type="html">&lt;p&gt;So, over this last week or so I have been going through some tutorials on how
+of mine hammered out over this next week! I'll keep you updated.&lt;/p&gt;</summary><category term="Technology"></category><category term="Raspberry Pi"></category><category term="DNS"></category><category term="ddclient"></category></entry><entry><title>Vim</title><link href="https://demophoon.github.io/vim-is-actually-the-literal-best.html" rel="alternate"></link><updated>2013-01-13T23:22:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-01-13:vim-is-actually-the-literal-best.html</id><summary type="html">&lt;p&gt;So, over this last week or so I have been going through some tutorials on how
 to better myself when it comes to Vim. I decided to take myself way back to the
 roots and review a lot of basics such as correctly moving the cursor around in
 a buffer, tab and window management, and my almighty .vimrc file. Over several
@@ -468,7 +468,7 @@ contains all plugins you have added into Vim. Also in this folder is where my
 &lt;code&gt;.vimrc&lt;/code&gt; file exists so that can stay in version control too.  It now lives on
 Github so now whenever I want my Vim config I can pull it down into my home
 directory and it is always up to date and the exact configuration that I would
-use at home or at work or where ever really.&lt;/p&gt;</summary><category term="Technology"></category><category term="Vim"></category><category term="Editors"></category></entry><entry><title>Arduino Security System</title><link href="http://demophoon.github.io/arduino-security-system.html" rel="alternate"></link><updated>2013-01-06T23:44:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-01-06:arduino-security-system.html</id><summary type="html">&lt;p&gt;Some of you may know that I am planning on moving out on my own and getting an
+use at home or at work or where ever really.&lt;/p&gt;</summary><category term="Technology"></category><category term="Vim"></category><category term="Editors"></category></entry><entry><title>Arduino Security System</title><link href="https://demophoon.github.io/arduino-security-system.html" rel="alternate"></link><updated>2013-01-06T23:44:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2013-01-06:arduino-security-system.html</id><summary type="html">&lt;p&gt;Some of you may know that I am planning on moving out on my own and getting an
 apartment with a good friend of mine. Knowing this well before I move out I
 decided to put some of my programming skills to the challenge of designing and
 programming my own security system with an Arduino. I had collected a few PIR
@@ -514,7 +514,7 @@ plan on hooking up my Arduino to a wireless Raspberry Pi and running the web
 server on that so that I don't need to have it hooked up to my computer all of
 the time. Maybe I'll even try out Pagekite to make my Raspberry Pi public
 facing so that I can send text message commands to arm or disarm the system If
-I don't feel like logging into the web UI.&lt;/p&gt;</summary><category term="Technology"></category><category term="Arduino"></category><category term="Home Security"></category><category term="Python"></category><category term="PySerial"></category></entry><entry><title>Who are You People?</title><link href="http://demophoon.github.io/who-are-you-people.html" rel="alternate"></link><updated>2012-12-16T23:32:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-12-16:who-are-you-people.html</id><summary type="html">&lt;p&gt;Keeping track of the visitors that go to your website can be a very useful tool
+I don't feel like logging into the web UI.&lt;/p&gt;</summary><category term="Technology"></category><category term="Arduino"></category><category term="Home Security"></category><category term="Python"></category><category term="PySerial"></category></entry><entry><title>Who are You People?</title><link href="https://demophoon.github.io/who-are-you-people.html" rel="alternate"></link><updated>2012-12-16T23:32:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-12-16:who-are-you-people.html</id><summary type="html">&lt;p&gt;Keeping track of the visitors that go to your website can be a very useful tool
 in finding out bugs in all sorts of areas in a web application. Viewing them in
 a neat and organized manner can make parsing through logs trying to figure out
 what the user did to cause the error in the first place. This is exactly what I
@@ -540,7 +540,7 @@ are staying to download the application or if they leave right then and there.
 Knowing this information can be very valuable by helping you understand what a
 typical flow is for any group of users. If you have not looked into Analytics I
 strongly recommend looking into it or some other form of visitor tracking. You
-may be surprised with what you may find.&lt;/p&gt;</summary><category term="Technology"></category><category term="Analytics"></category></entry><entry><title>Beta Testing and QA Testing</title><link href="http://demophoon.github.io/beta-testing.html" rel="alternate"></link><updated>2012-12-03T00:03:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-12-03:beta-testing.html</id><summary type="html">&lt;p&gt;This last week I started working on a card game called Cards of Lunacy, an
+may be surprised with what you may find.&lt;/p&gt;</summary><category term="Technology"></category><category term="Analytics"></category></entry><entry><title>Beta Testing and QA Testing</title><link href="https://demophoon.github.io/beta-testing.html" rel="alternate"></link><updated>2012-12-03T00:03:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-12-03:beta-testing.html</id><summary type="html">&lt;p&gt;This last week I started working on a card game called Cards of Lunacy, an
 online version of Cards Against Humanity(tm). It turned out to be a lot of work
 getting a lot of working parts moving just right since it is my first time
 playing with Websockets in this fashion. Everything worked just fine when I ran
@@ -555,7 +555,7 @@ is a very important step. Some of the comments such as "it doesn't work." are
 quite annoying when that is all the information that they give but none the
 less it is a problem that you probably should investigate further unless it is
 a PEBKAC error. Dig through logs until you find something and then fix it. I've
-learned all of this the hard way this time around.&lt;/p&gt;</summary><category term="Technology"></category></entry><entry><title>Bootstrap</title><link href="http://demophoon.github.io/bootstrap.html" rel="alternate"></link><updated>2012-11-25T00:47:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-11-25:bootstrap.html</id><summary type="html">&lt;p&gt;I was apart of a team consisting of a few of my coworkers that went out and
+learned all of this the hard way this time around.&lt;/p&gt;</summary><category term="Technology"></category></entry><entry><title>Bootstrap</title><link href="https://demophoon.github.io/bootstrap.html" rel="alternate"></link><updated>2012-11-25T00:47:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-11-25:bootstrap.html</id><summary type="html">&lt;p&gt;I was apart of a team consisting of a few of my coworkers that went out and
 competed in the Compute Midwest Hackathon a few weeks ago and It was really
 awesome getting to learn and see what everyone else was piecing together with
 the Api's. My coworkers had mentioned Twitter's Bootstrap to me before a few
@@ -580,7 +580,7 @@ life easier, sure I need to know how the library works but it is much better to
 learn a little library with a professional end result than to try and write
 everything yourself and have it be half-assed. I really do have the tendencies
 of a student, always sticking to the book and writing it all myself. I should
-try and break that as soon as possible.&lt;/p&gt;</summary><category term="Technology"></category><category term="Programming"></category><category term="Bootstrap"></category><category term="CSS"></category></entry><entry><title>That Has Probably Been Done Before...</title><link href="http://demophoon.github.io/never-give-up.html" rel="alternate"></link><updated>2012-11-19T00:04:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-11-19:never-give-up.html</id><summary type="html">&lt;p&gt;This last week I went and wrote some new code that would help me easily hook
+try and break that as soon as possible.&lt;/p&gt;</summary><category term="Technology"></category><category term="Programming"></category><category term="Bootstrap"></category><category term="CSS"></category></entry><entry><title>That Has Probably Been Done Before...</title><link href="https://demophoon.github.io/never-give-up.html" rel="alternate"></link><updated>2012-11-19T00:04:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-11-19:never-give-up.html</id><summary type="html">&lt;p&gt;This last week I went and wrote some new code that would help me easily hook
 into &lt;a href="http://www.twilio.com/"&gt;Twilio&lt;/a&gt;'s REST-ful API. It was very
 straight forward with adding the basic authentication headers to each request
 in Python which is a single line of code. After spending time and effort into
@@ -607,7 +607,7 @@ sorry for the absent-ed-ness of these last few weeks of blogging. When shit
 hits the fan, oh boy does it hit the fan with great strength and vigor. I won't
 go into details of anything but I am definitely trying to become more
 comfortable with things in my own life rather than letting it all fester and
-turn into something unreasonably bigger than it is.&lt;/p&gt;</summary><category term="Technology"></category><category term="Programming"></category><category term="Self Help"></category></entry><entry><title>Learn, Relearn, and Learn Some More</title><link href="http://demophoon.github.io/always-be-learning.html" rel="alternate"></link><updated>2012-10-28T20:22:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-10-28:always-be-learning.html</id><summary type="html">&lt;p&gt;Recently I was asked to dig up some of the tutorials and classes that I had
+turn into something unreasonably bigger than it is.&lt;/p&gt;</summary><category term="Technology"></category><category term="Programming"></category><category term="Self Help"></category></entry><entry><title>Learn, Relearn, and Learn Some More</title><link href="https://demophoon.github.io/always-be-learning.html" rel="alternate"></link><updated>2012-10-28T20:22:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-10-28:always-be-learning.html</id><summary type="html">&lt;p&gt;Recently I was asked to dig up some of the tutorials and classes that I had
 used to learn Python! It was a three day course that went through
 the fundamentals of the language and its real world uses with very helpful tips
 and tricks a long the way. As great as any course is, you will probably not
@@ -625,7 +625,7 @@ not very important things to remember, which is why I chose to not retain the
 information in the first place but none the less it was still new to me. So
 where ever you ended up learning your language of choice, go back and review
 basic concepts every once in a while. Even if that means finding a new
-introductory course for the language.&lt;/p&gt;</summary><category term="Technology"></category><category term="Programming"></category><category term="Self Help"></category></entry><entry><title>Web Sockets and You</title><link href="http://demophoon.github.io/websockets.html" rel="alternate"></link><updated>2012-10-21T20:12:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-10-21:websockets.html</id><summary type="html">&lt;p&gt;Over this last week I learned about what web can exactly do. We developers use
+introductory course for the language.&lt;/p&gt;</summary><category term="Technology"></category><category term="Programming"></category><category term="Self Help"></category></entry><entry><title>Web Sockets and You</title><link href="https://demophoon.github.io/websockets.html" rel="alternate"></link><updated>2012-10-21T20:12:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-10-21:websockets.html</id><summary type="html">&lt;p&gt;Over this last week I learned about what web can exactly do. We developers use
 sockets to transmit or receive data over a network by listening for, or sending
 to, another computer or program. As long as the socket remains open information
 can flow freely. Now setting this up in a program can be fairly easy, but when
@@ -648,7 +648,7 @@ from the start. This technique can be used for simply speeding up web
 applications or creating a complex online multiplayer game. Unfortunately for
 us, Web Sockets are still in draft and It may be years for it to become a
 standard in web browsers, but for the web browsers that support it they can
-take full advantage of its sheer awesome technologies.&lt;/p&gt;</summary><category term="Technology"></category><category term="Javascript"></category><category term="Websockets"></category><category term="Html 5"></category><category term="Python"></category><category term="Autobahn"></category></entry><entry><title>Blue-Green Deployments</title><link href="http://demophoon.github.io/blue-green.html" rel="alternate"></link><updated>2012-10-13T12:37:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-10-13:blue-green.html</id><summary type="html">&lt;p&gt;The first time I heard about blue-green deployments was when I was at work
+take full advantage of its sheer awesome technologies.&lt;/p&gt;</summary><category term="Technology"></category><category term="Javascript"></category><category term="Websockets"></category><category term="Html 5"></category><category term="Python"></category><category term="Autobahn"></category></entry><entry><title>Blue-Green Deployments</title><link href="https://demophoon.github.io/blue-green.html" rel="alternate"></link><updated>2012-10-13T12:37:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-10-13:blue-green.html</id><summary type="html">&lt;p&gt;The first time I heard about blue-green deployments was when I was at work
 reconfiguring an apache web server. I noticed that using name-based virtual
 hosting I could change the port that
 &lt;a href="http://blog.brittg.com/"&gt;http://blog.brittg.com/&lt;/a&gt; had ran on from
@@ -671,7 +671,7 @@ less time worrying about planning when to put up that "Maintenance Mode" banner
 which could be weeks down the road, only to find out that when the application
 gets put into production there was a user error during the deployment that
 caused an entire outage and code being rolled back. Been there, done that. So
-you can believe me when I say Blue-Green is the way to go.&lt;/p&gt;</summary><category term="Technology"></category><category term="Deployments"></category><category term="Continuous Deployment"></category></entry><entry><title>Learn Something New</title><link href="http://demophoon.github.io/learn-something-new.html" rel="alternate"></link><updated>2012-09-30T20:28:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-09-30:learn-something-new.html</id><summary type="html">&lt;p&gt;Would you rather know a lot about one specific thing or know a little about a
+you can believe me when I say Blue-Green is the way to go.&lt;/p&gt;</summary><category term="Technology"></category><category term="Deployments"></category><category term="Continuous Deployment"></category></entry><entry><title>Learn Something New</title><link href="https://demophoon.github.io/learn-something-new.html" rel="alternate"></link><updated>2012-09-30T20:28:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-09-30:learn-something-new.html</id><summary type="html">&lt;p&gt;Would you rather know a lot about one specific thing or know a little about a
 lot of different things. I tend to live my life geared for the latter of the
 two. Learn a little bit about a lot of things and you are able to connect the
 dots between the categories to synthesize actual thoughts and ideas instead of
@@ -686,7 +686,7 @@ learning about a bunch of things. I feel like I'd be a well rounded handyman
 instead of an expert anywhere.&lt;/p&gt;
 &lt;p&gt;Anyways, kind of a short post this week, not a whole lot happened outside of
 work except seeing The Doctor roaming about the local Renaissance Festival,
-quite entertaining in my opinion.&lt;/p&gt;</summary><category term="Self Help"></category></entry><entry><title>Orthogonal Practices</title><link href="http://demophoon.github.io/orthogonal-practices.html" rel="alternate"></link><updated>2012-09-23T16:33:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-09-23:orthogonal-practices.html</id><summary type="html">&lt;p&gt;Back in middle school I had gotten a BASIC stamp board to have some nice fun
+quite entertaining in my opinion.&lt;/p&gt;</summary><category term="Self Help"></category></entry><entry><title>Orthogonal Practices</title><link href="https://demophoon.github.io/orthogonal-practices.html" rel="alternate"></link><updated>2012-09-23T16:33:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-09-23:orthogonal-practices.html</id><summary type="html">&lt;p&gt;Back in middle school I had gotten a BASIC stamp board to have some nice fun
 with. I learned what it took to make a very simple program work with LED's,
 displays, buttons, sensors, and just about everything else I could get my hands
 on to. It was a lot of fun when I had simple tasks that I wanted to accomplish.
@@ -731,7 +731,7 @@ function exactly as I'd expect it to work without getting a run-time error
 because &lt;code&gt;getBeat()&lt;/code&gt; was not declared.&lt;/p&gt;
 &lt;p&gt;It is 110% recommended by me to take this approach to developing programs
 because you don't always know what you want to have in the end but you always
-want an easy way to get there.&lt;/p&gt;</summary><category term="Technology"></category><category term="Self Help"></category></entry><entry><title>Behind the Canvas in Music Music Revolution</title><link href="http://demophoon.github.io/behind-mmr-canvas.html" rel="alternate"></link><updated>2015-01-29T21:01:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-09-16:behind-mmr-canvas.html</id><summary type="html">&lt;p&gt;Last week I wrote about how the I was able to use the Web Audio API in my game
+want an easy way to get there.&lt;/p&gt;</summary><category term="Technology"></category><category term="Self Help"></category></entry><entry><title>Behind the Canvas in Music Music Revolution</title><link href="https://demophoon.github.io/behind-mmr-canvas.html" rel="alternate"></link><updated>2015-01-29T21:01:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-09-16:behind-mmr-canvas.html</id><summary type="html">&lt;p&gt;Last week I wrote about how the I was able to use the Web Audio API in my game
 Music Music Revolution. This week I am going to tie it all back into creating
 the visuals for the game and the troubles I ran into with that.&lt;/p&gt;
 &lt;p&gt;Lets start by defining the Canvas element for anyone who has not had experience
@@ -772,7 +772,7 @@ there whenever the draw() method was called. Other than that the visuals were
 pretty easy to create, I still want to do more than just the simple waveform in
 the background. I have another project that I had worked on a really long time
 ago that I will probably do some code reuse and implement the visual effects I
-had created for my web-based iTunes remote controller.&lt;/p&gt;</summary><category term="Technology"></category><category term="Html5"></category><category term="Games"></category><category term="Web Audio Api"></category><category term="Javascript"></category><category term="Canvas"></category></entry><entry><title>Behind the Audio in Music Music Revolution</title><link href="http://demophoon.github.io/behind-mmr.html" rel="alternate"></link><updated>2015-01-29T20:34:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-09-06:behind-mmr.html</id><summary type="html">&lt;p&gt;I spent a large majority of last week working on a project I called 'Music
+had created for my web-based iTunes remote controller.&lt;/p&gt;</summary><category term="Technology"></category><category term="Html5"></category><category term="Games"></category><category term="Web Audio Api"></category><category term="Javascript"></category><category term="Canvas"></category></entry><entry><title>Behind the Audio in Music Music Revolution</title><link href="https://demophoon.github.io/behind-mmr.html" rel="alternate"></link><updated>2015-01-29T20:34:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-09-06:behind-mmr.html</id><summary type="html">&lt;p&gt;I spent a large majority of last week working on a project I called 'Music
 Music Revolution' based off of the popular '&lt;a href="http://en.wikipedia.org/wiki/Dance_Dance_Revolution"&gt;Dance Dance
 Revolution&lt;/a&gt;' and inspired
 by &lt;a href="http://en.wikipedia.org/wiki/Beats_(video_game)"&gt;Beats&lt;/a&gt; for Sonys PSP. I
@@ -784,7 +784,7 @@ the music, which is in my opinion very awkward. What I wanted needed to feel
 more natural to tapping on the beats of the music. I had decided that I
 couldn't find a game that quite captured what I had wanted out of it so I made
 my own!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Music Music Revolution Gameplay" src="http://demophoon.github.io/static/images/gameplay.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Music Music Revolution Gameplay" src="https://demophoon.github.io/static/images/gameplay.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Music Music Revolution is a Html 5 creation that uses a few very experimental
 API's together to create the experience I was looking for. Now, it is very far
 from perfect, but none the less, I am very proud of where it has come. The Web
@@ -825,7 +825,7 @@ Audio&lt;/a&gt;&lt;/p&gt;
 find any bugs in the comments below or in an email found on the game's website!&lt;/p&gt;
 &lt;p&gt;I plan on writing a little more about how everything comes together, including
 the File IO API, Beat detection algorithms, and the challenges of using the
-Canvas element for actual game.&lt;/p&gt;</summary><category term="Technology"></category><category term="Html5"></category><category term="Games"></category><category term="Web Audio Api"></category><category term="Javascript"></category></entry><entry><title>IRC Is Wonderful</title><link href="http://demophoon.github.io/irc-is-wonderful.html" rel="alternate"></link><updated>2012-08-24T20:33:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-08-24:irc-is-wonderful.html</id><summary type="html">&lt;p&gt;If you were to go up to someone in my generation and ask, "What are your
+Canvas element for actual game.&lt;/p&gt;</summary><category term="Technology"></category><category term="Html5"></category><category term="Games"></category><category term="Web Audio Api"></category><category term="Javascript"></category></entry><entry><title>IRC Is Wonderful</title><link href="https://demophoon.github.io/irc-is-wonderful.html" rel="alternate"></link><updated>2012-08-24T20:33:00-06:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2012-08-24:irc-is-wonderful.html</id><summary type="html">&lt;p&gt;If you were to go up to someone in my generation and ask, "What are your
 thoughts on IRC?", I'm willing to bet that 99.9% would not have any idea what
 you were talking about. This is a complete shame in my opinion! For my fellow
 Generation-Y's out there, here is what IRC is. Imagine you are stuck on a
