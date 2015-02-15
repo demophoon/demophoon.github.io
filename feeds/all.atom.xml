@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Fro Maintenance</title><link href="https://demophoon.github.io/" rel="alternate"></link><link href="https://demophoon.github.io/feeds/all.atom.xml" rel="self"></link><id>https://demophoon.github.io/</id><updated>2015-02-01T18:52:00-08:00</updated><entry><title>Tornado over Pyramid for Webvim</title><link href="https://demophoon.github.io/webvim-tornado.html" rel="alternate"></link><updated>2015-02-01T18:52:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-01:webvim-tornado.html</id><summary type="html">&lt;p&gt;So I've done a lot of work getting Webvim to the state that it currently is at
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Fro Maintenance</title><link href="https://demophoon.github.io/" rel="alternate"></link><link href="https://demophoon.github.io/feeds/all.atom.xml" rel="self"></link><id>https://demophoon.github.io/</id><updated>2015-02-15T11:35:00-08:00</updated><entry><title>Jenkins Job Builder</title><link href="https://demophoon.github.io/jenkins-job-builder.html" rel="alternate"></link><updated>2015-02-15T11:35:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-15:jenkins-job-builder.html</id><summary type="html">&lt;p&gt;So this weekend I spent some time playing around with &lt;a href="https://github.com/openstack-infra/jenkins-job-builder"&gt;Jenkins Job
+Builder&lt;/a&gt; by Openstack
+and I'm a massive fan. I have not started using jenkins in my personal life
+until now and all I want to do is add jenkins to everything since discovering
+this.&lt;/p&gt;
+&lt;p&gt;What JJB lets you do is write out basic job configurations in a Yaml file and
+when you run &lt;code&gt;jenkins-jobs update ./path/to/jobs.yaml&lt;/code&gt; it generates jenkins
+configs and uploads them to your jenkins server. This lets you manage your
+jenkins instance in a way that can be versioned and auditable! Big win there!
+You can also specify templates in the yaml files and use the templates as bases
+for jobs. I'm starting to do this with my python projects by first creating a
+template for doing PEP-8 checks on code, as well as a template for running any
+tests I create, and putting all of those individual jobs into a job group. You
+can think of job groups as mini pipelines. After I have created that pipeline
+adding new python projects turns from hours of cloning and modifying jobs in
+Jenkins into just modifying your job configurations to utilize that job group.&lt;/p&gt;
+&lt;p&gt;When you update the jobs all of the mini jobs in a pipeline are created
+automagically and kept up to date with what is in the configurations. I don't
+even see why you'd need to run the update command if that itself is a Jenkins
+job!&lt;/p&gt;
+&lt;p&gt;If you are interested in seeing my configurations they are all open and
+available here: https://github.com/demophoon/jenkins-jobs&lt;/p&gt;</summary><category term="Technology"></category><category term="Python"></category><category term="Jenkins"></category><category term="Automation"></category><category term="CI"></category></entry><entry><title>Tornado over Pyramid for Webvim</title><link href="https://demophoon.github.io/webvim-tornado.html" rel="alternate"></link><updated>2015-02-01T18:52:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-01:webvim-tornado.html</id><summary type="html">&lt;p&gt;So I've done a lot of work getting Webvim to the state that it currently is at
 right now. Along the way I ran into some very interesting problems that needed
 to be solved in order to get the 1.0 release out.&lt;/p&gt;
 &lt;h2&gt;Refactor&lt;/h2&gt;
