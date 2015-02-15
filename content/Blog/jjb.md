@@ -28,4 +28,6 @@ even see why you'd need to run the update command if that itself is a Jenkins
 job!
 
 If you are interested in seeing my configurations they are all open and
-available here: https://github.com/demophoon/jenkins-jobs
+available here: [https://github.com/demophoon/jenkins-jobs](https://github.com/demophoon/jenkins-jobs)
+
+This blog post was published using Jenkins!
