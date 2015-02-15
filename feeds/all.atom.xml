@@ -20,7 +20,15 @@ automagically and kept up to date with what is in the configurations. I don't
 even see why you'd need to run the update command if that itself is a Jenkins
 job!&lt;/p&gt;
 &lt;p&gt;If you are interested in seeing my configurations they are all open and
-available here: https://github.com/demophoon/jenkins-jobs&lt;/p&gt;</summary><category term="Technology"></category><category term="Python"></category><category term="Jenkins"></category><category term="Automation"></category><category term="CI"></category></entry><entry><title>Tornado over Pyramid for Webvim</title><link href="https://demophoon.github.io/webvim-tornado.html" rel="alternate"></link><updated>2015-02-01T18:52:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-01:webvim-tornado.html</id><summary type="html">&lt;p&gt;So I've done a lot of work getting Webvim to the state that it currently is at
+available here: &lt;a href="https://github.com/demophoon/jenkins-jobs"&gt;https://github.com/demophoon/jenkins-jobs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This blog post was published using Jenkins!&lt;/p&gt;</summary><category term="Technology"></category><category term="Python"></category><category term="Jenkins"></category><category term="Automation"></category><category term="CI"></category></entry><entry><title>Change log: 2015-02-15</title><link href="https://demophoon.github.io/change-log-2015-02-15.html" rel="alternate"></link><updated>2015-02-15T00:00:00+01:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-15:change-log-2015-02-15.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Work on Jenkins job builder.&lt;ul&gt;
+&lt;li&gt;Wrote some custom wrappers, publishers, builders, and notifiers for JJB to hook into existing Jenkins plugins.&lt;/li&gt;
+&lt;li&gt;Automated blog deployments with JJB&lt;/li&gt;
+&lt;li&gt;Automated PEP-8 testing with JJB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary></entry><entry><title>Tornado over Pyramid for Webvim</title><link href="https://demophoon.github.io/webvim-tornado.html" rel="alternate"></link><updated>2015-02-01T18:52:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-01:webvim-tornado.html</id><summary type="html">&lt;p&gt;So I've done a lot of work getting Webvim to the state that it currently is at
 right now. Along the way I ran into some very interesting problems that needed
 to be solved in order to get the 1.0 release out.&lt;/p&gt;
 &lt;h2&gt;Refactor&lt;/h2&gt;

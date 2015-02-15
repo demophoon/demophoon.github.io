@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Fro Maintenance</title><link href="https://demophoon.github.io/" rel="alternate"></link><link href="https://demophoon.github.io/feeds/jenkins.atom.xml" rel="self"></link><id>https://demophoon.github.io/</id><updated>2015-02-15T00:00:00+01:00</updated><entry><title>Change log: 2015-02-15</title><link href="https://demophoon.github.io/change-log-2015-02-15.html" rel="alternate"></link><updated>2015-02-15T00:00:00+01:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-15:change-log-2015-02-15.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Work on Jenkins job builder.&lt;ul&gt;
+&lt;li&gt;Wrote some custom wrappers, publishers, builders, and notifiers for JJB to hook into existing Jenkins plugins.&lt;/li&gt;
+&lt;li&gt;Automated blog deployments with JJB&lt;/li&gt;
+&lt;li&gt;Automated PEP-8 testing with JJB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary></entry></feed>
