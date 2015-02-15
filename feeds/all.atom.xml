@@ -28,7 +28,7 @@ available here: &lt;a href="https://github.com/demophoon/jenkins-jobs"&gt;https:
 &lt;li&gt;Automated PEP-8 testing with JJB&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary></entry><entry><title>Tornado over Pyramid for Webvim</title><link href="https://demophoon.github.io/webvim-tornado.html" rel="alternate"></link><updated>2015-02-01T18:52:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-01:webvim-tornado.html</id><summary type="html">&lt;p&gt;So I've done a lot of work getting Webvim to the state that it currently is at
+&lt;/ul&gt;</summary><category term="Jenkins"></category></entry><entry><title>Tornado over Pyramid for Webvim</title><link href="https://demophoon.github.io/webvim-tornado.html" rel="alternate"></link><updated>2015-02-01T18:52:00-08:00</updated><author><name>Britt Gresham</name></author><id>tag:demophoon.github.io,2015-02-01:webvim-tornado.html</id><summary type="html">&lt;p&gt;So I've done a lot of work getting Webvim to the state that it currently is at
 right now. Along the way I ran into some very interesting problems that needed
 to be solved in order to get the 1.0 release out.&lt;/p&gt;
 &lt;h2&gt;Refactor&lt;/h2&gt;
