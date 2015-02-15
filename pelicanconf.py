@@ -35,11 +35,12 @@ LINKS = (
 # Social widget
 SOCIAL = (
     ('Github', 'https://github.com/demophoon'),
+    ('LinkedIn', 'https://brittg.com/linkedin'),
     ('Twitter', 'https://twitter.com/demophoon'),
-    ('Freenode: demophoon', '#'),
     ('Last.fm', 'http://www.last.fm/user/demophoon'),
+    ('Freenode: demophoon', '#'),
 )
-GITHUB_URL = 'http://github.com/demophoon/'
+#GITHUB_URL = 'http://github.com/demophoon/'
 TWITTER_USERNAME = "demophoon"
 
 STATIC_PATHS = ['static']
