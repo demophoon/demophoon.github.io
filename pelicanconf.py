@@ -13,10 +13,10 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Article URLs
-#ARTICLE_URL = 'posts/{category}/{slug}/'
-#ARTICLE_URL_AS = 'posts/{category}/{slug}/index.html'
-#PAGE_URL = 'pages/{category}/{slug}/'
-#PAGE_URL_AS = 'pages/{category}/{slug}/index.html'
+# ARTICLE_URL = 'posts/{category}/{slug}/'
+# ARTICLE_URL_AS = 'posts/{category}/{slug}/index.html'
+# PAGE_URL = 'pages/{category}/{slug}/'
+# PAGE_URL_AS = 'pages/{category}/{slug}/index.html'
 
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = None
@@ -40,12 +40,14 @@ SOCIAL = (
     ('Last.fm', 'http://www.last.fm/user/demophoon'),
     ('Freenode: demophoon', '#'),
 )
-#GITHUB_URL = 'http://github.com/demophoon/'
+# GITHUB_URL = 'http://github.com/demophoon/'
 TWITTER_USERNAME = "demophoon"
 
 STATIC_PATHS = ['static']
+ARTICLE_PATHS = ['Blog']
+ARTICLE_EXCLUDES = ['changelog']
 
 DEFAULT_PAGINATION = 4
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
