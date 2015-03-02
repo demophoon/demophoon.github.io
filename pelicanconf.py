@@ -45,7 +45,6 @@ TWITTER_USERNAME = "demophoon"
 
 STATIC_PATHS = ['static']
 ARTICLE_PATHS = ['Blog']
-ARTICLE_EXCLUDES = ['changelog']
 
 DEFAULT_PAGINATION = 4
 
