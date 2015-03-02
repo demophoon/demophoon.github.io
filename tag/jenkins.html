@@ -16,12 +16,50 @@
                 <h1><a href="https://demophoon.github.io/">Fro Maintenance </a></h1>
                 <nav><ul>
                     <li><a href="https://demophoon.github.io/category/blog.html">Blog</a></li>
+                    <li><a href="https://demophoon.github.io/category/change-log.html">Change Log</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://demophoon.github.io/jenkins-job-builder.html">Jenkins Job Builder</a></h1>
+                    <h1 class="entry-title"><a href="https://demophoon.github.io/2015-02-16.html">2015-02-16</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2015-02-16T00:00:00+01:00">
+                Published: Mon 16 February 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://demophoon.github.io/author/britt-gresham.html">Britt Gresham</a>
+        </address>
+<p>In <a href="https://demophoon.github.io/category/change-log.html">Change Log</a>. </p>
+<p>tags: <a href="https://demophoon.github.io/tag/jenkins.html">Jenkins</a> <a href="https://demophoon.github.io/tag/python.html">Python</a> </p>
+</footer><!-- /.post-info --><ul>
+<li>Jenkins Job Builder<ul>
+<li>Updated python test jobs to utilize the <code>flake8</code> module instead of <code>pep8</code></li>
+<li>Using JJB to create a Jenkins job to update Jenkins Jobs.</li>
+</ul>
+</li>
+<li>Hack day today</li>
+<li>Triage Jenkins Board<ul>
+<li>Got <a href="https://github.com/demophoon/brittbot">Brittbot</a>'s boards green for flake8.</li>
+<li>FOSS Sams is now green!</li>
+<li>Everything else is now green!!</li>
+</ul>
+</li>
+</ul>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://demophoon.github.io/jenkins-job-builder.html" rel="bookmark"
+                           title="Permalink to Jenkins Job Builder">Jenkins Job Builder</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2015-02-15T11:35:00-08:00">
                 Published: Sun 15 February 2015
@@ -32,33 +70,49 @@
         </address>
 <p>In <a href="https://demophoon.github.io/category/blog.html">Blog</a>. </p>
 <p>tags: <a href="https://demophoon.github.io/tag/technology.html">Technology</a> <a href="https://demophoon.github.io/tag/python.html">Python</a> <a href="https://demophoon.github.io/tag/jenkins.html">Jenkins</a> <a href="https://demophoon.github.io/tag/automation.html">Automation</a> <a href="https://demophoon.github.io/tag/ci.html">CI</a> </p>
-</footer><!-- /.post-info --><p>So this weekend I spent some time playing around with <a href="https://github.com/openstack-infra/jenkins-job-builder">Jenkins Job
+</footer><!-- /.post-info -->                <p>So this weekend I spent some time playing around with <a href="https://github.com/openstack-infra/jenkins-job-builder">Jenkins Job
 Builder</a> by Openstack
 and I'm a massive fan. I have not started using jenkins in my personal life
 until now and all I want to do is add jenkins to everything since discovering
 this.</p>
-<p>What JJB lets you do is write out basic job configurations in a Yaml file and
-when you run <code>jenkins-jobs update ./path/to/jobs.yaml</code> it generates jenkins
-configs and uploads them to your jenkins server. This lets you manage your
-jenkins instance in a way that can be versioned and auditable! Big win there!
-You can also specify templates in the yaml files and use the templates as bases
-for jobs. I'm starting to do this with my python projects by first creating a
-template for doing PEP-8 checks on code, as well as a template for running any
-tests I create, and putting all of those individual jobs into a job group. You
-can think of job groups as mini pipelines. After I have created that pipeline
-adding new python projects turns from hours of cloning and modifying jobs in
-Jenkins into just modifying your job configurations to utilize that job group.</p>
-<p>When you update the jobs all of the mini jobs in a pipeline are created
-automagically and kept up to date with what is in the configurations. I don't
-even see why you'd need to run the update command if that itself is a Jenkins
-job!</p>
-<p>If you are interested in seeing my configurations they are all open and
-available here: <a href="https://github.com/demophoon/jenkins-jobs">https://github.com/demophoon/jenkins-jobs</a></p>
-<p>This blog post was published using Jenkins!</p>                </article>
+<p>What JJB lets ...</p>
+                <a class="readmore" href="https://demophoon.github.io/jenkins-job-builder.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://demophoon.github.io/2015-02-15.html" rel="bookmark"
+                           title="Permalink to 2015-02-15">2015-02-15</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-02-15T00:00:00+01:00">
+                Published: Sun 15 February 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://demophoon.github.io/author/britt-gresham.html">Britt Gresham</a>
+        </address>
+<p>In <a href="https://demophoon.github.io/category/change-log.html">Change Log</a>. </p>
+<p>tags: <a href="https://demophoon.github.io/tag/jenkins.html">Jenkins</a> </p>
+</footer><!-- /.post-info -->                <ul>
+<li>Work on Jenkins job builder.<ul>
+<li>Wrote some custom wrappers, publishers, builders, and notifiers for JJB to hook into existing Jenkins plugins.</li>
+<li>Automated blog deployments with JJB</li>
+<li>Automated PEP-8 testing with JJB</li>
+</ul>
+</li>
+</ul>
+                <a class="readmore" href="https://demophoon.github.io/2015-02-15.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
 <p class="paginator">
     Page 1 / 1
 </p>
-            </aside><!-- /#featured -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
